@@ -15,19 +15,20 @@ class Home extends Component{
             <Container className='fluid d-flex justify-content-center'>
                 <Row>
                 {fantasy.map(fan=>(
-                    <Col className="col-lg-3" >
-                    <Card style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src={fan.img} rounded
-                    className='block mx-auto w-1/2'  style={{
+                    <Col xs={12} sm={6} md={4} lg={3} className="mb-4 space-between">
+                    {/* <Card style={{ width: '16rem' ,height:'26rem' }}> */}
+                    <div className='text-white'>
+                    <img variant="top" src={fan.img} roundedCircle
+                      style={{
                         resizeMode: "contain",
                         height: 200,
                         width: 200
                       }}/>
-                     <Card.Body>
-                    <Card.Title>{fan.title}</Card.Title>
-                     <h3>{fan.price}</h3>
-                    </Card.Body>
-                </Card>
+                     <div>
+                    <p>{fan.title}</p>
+                     <h4>{fan.price}$</h4>
+                    </div>
+                </div>
                 </Col>    
                 ))}      
      </Row>

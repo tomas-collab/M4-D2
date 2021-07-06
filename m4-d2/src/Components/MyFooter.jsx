@@ -12,7 +12,6 @@ const MyFooter = (props) =>{
           </Card.Text>
           <Button variant="primary">Footer</Button>
         </Card.Body>
-        <Card.Footer className="text-muted">2 days ago</Card.Footer>
       </Card>
     )
 }

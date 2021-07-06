@@ -8,8 +8,8 @@ import MyJumbotron  from './Components/Jumbotron';
 
 function App() {
   return (
-    <div>
-     <MyNavBar/>
+    <div className='background'>
+     <MyNavBar title='Strive shoping book'/>
      <MyJumbotron />
      <Home/>
      <MyFooter/>
