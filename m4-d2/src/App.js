@@ -12,7 +12,7 @@ function App() {
     <div className='background'>
      <MyNavBar title='Strive shoping book'/>
      <MyJumbotron />
-     <LatestRelease/>
+     <LatestRelease title='Latest Release'/>
      <Home/>
      <MyFooter/>
     </div>
