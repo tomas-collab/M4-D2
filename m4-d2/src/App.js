@@ -12,7 +12,8 @@ function App() {
     <div className='background'>
      <MyNavBar title='Strive shoping book'/>
      <MyJumbotron />
-     <LatestRelease title='Latest Release'/>
+     <h1 className='latest-realease'> LATEST REALEASE</h1>
+     <LatestRelease/>
      <Home/>
      <MyFooter/>
     </div>
